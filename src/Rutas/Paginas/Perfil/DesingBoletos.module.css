@@ -1,0 +1,54 @@
+/* DesingBoletos.module.css */
+
+/* Estilos para el contenedor de los boletos */
+.boletosContainer {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para cada boleto */
+.boleto {
+  list-style-type: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título del boleto */
+.boletoTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los detalles del boleto */
+.boletoDetails {
+  margin-bottom: 10px;
+}
+
+/* Estilos para cada detalle del boleto */
+.boletoDetails div {
+  margin-bottom: 5px;
+}
+
+/* Estilos para la imagen del boleto */
+.boletoImage {
+  max-width: 200px; /* Ancho máximo de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-top: 10px; /* Espaciado superior */
+  opacity: 0.8; /* Opacidad del 80% */
+  transition: opacity 0.3s ease; /* Transición suave de opacidad */
+}
+
+/* Estilos para la imagen del boleto al pasar el ratón */
+.boletoImage:hover {
+  opacity: 1; /* Opacidad del 100% al pasar el ratón */
+}

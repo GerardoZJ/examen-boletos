@@ -1,0 +1,54 @@
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9); /* Aumentar la opacidad del fondo */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Aumentar la intensidad de la sombra */
+  max-width: 800px; /* Aumentar el tamaño máximo */
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold; /* Añadir negrita */
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc; /* Aumentar el grosor del borde */
+  border-radius: 8px;
+  font-weight: bold; /* Añadir negrita */
+}
+
+button {
+  background-color: #c49b6c;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-weight: bold; /* Añadir negrita */
+}
+
+button:hover {
+  background-color: #a37c55;
+}

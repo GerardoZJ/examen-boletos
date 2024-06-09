@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+  background-image: url('https://media.istockphoto.com/id/1337977426/es/foto/gris-oscuro-y-negro-grunge-cemento-pared-estudio-espacio-espacio-de-producto-plantilla-de-fondo.jpg?s=612x612&w=0&k=20&c=wsmD1kAo482wFZRqMd-vABkPmFGPYtIdkDDAXRwmaqU=');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #c49b6c;
+  margin-top: 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.ItemCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.ItemCardWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.ItemCard {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  max-width: 1200px;
+  padding: 30px;
+}
+
+.ImageWrapper {
+  flex-shrink: 0;
+}
+
+.ItemCardImage {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 4px solid #c49b6c;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.ItemCardDetails {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 40px;
+}
+
+p {
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.TicketOptions {
+  margin-top: 30px;
+}
+
+.TicketOption {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.TicketOption label {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.CountControl {
+  display: flex;
+  align-items: center;
+}
+
+.CountButton {
+  background-color: #c49b6c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CountButton:hover {
+  background-color: #a57b4a;
+}
+
+.CountInput {
+  width: 80px;
+  text-align: center;
+  margin: 0 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.TotalTickets {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.DetailButton,
+.ActionButton {
+  background-color: #c49b6c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.DetailButton:hover,
+.ActionButton:hover {
+  background-color: #a57b4a;
+}
+
+.ItemCardButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.Details {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+img{
+  width: 200px;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.checkbox {
+  display: inline-block; 
+  margin-right: 50px;
+}

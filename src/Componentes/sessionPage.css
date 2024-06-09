@@ -1,0 +1,40 @@
+
+.containeer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; 
+  max-height: 500px; 
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+
+.qrCode {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.verifyButtonn {
+  background-color: #c49b6c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.verifyButton:hover {
+  background-color: #a57b4a;
+}
+
+.messagee {
+  color: #c49b6c;
+  font-weight: bold;
+}
+

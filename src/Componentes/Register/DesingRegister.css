@@ -1,0 +1,88 @@
+.register-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: rgba(250, 250, 250, 0.7);
+}
+
+.register-title {
+  color: #000000;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.2em;
+  font-family: Arial, sans-serif;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #000000;
+  font-size: 1em;
+  transition: all 0.3s ease;
+  font-family: Arial, sans-serif;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #000000;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  color: #000000;
+}
+
+.register-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #c49b6c;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #b7844a;
+}
+
+.option-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.option-link:hover {
+  text-decoration: underline;
+}
+
+.register-link {
+  font-family: 'Times New Roman', Times, serif; /* Cambio de fuente para el enlace */
+}

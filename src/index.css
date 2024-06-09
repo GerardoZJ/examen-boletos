@@ -1,0 +1,9 @@
+body {
+    background-image: url('./Material/fondo.png'); /* Ajusta la ruta según sea necesario */
+    background-size: 100% 100%; /* Cubre toda la página sin distorsionar la imagen */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen de fondo sea estática */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
